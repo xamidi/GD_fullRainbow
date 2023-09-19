@@ -675,10 +675,10 @@ tagHUD_LeftMouse_R=Left Mouse Assignment
 tagHUD_LeftMouse_R1=This is your primary attack.  Right click to assign a different skill.
 tagHUD_RightMouse_R=Right Mouse Assignment
 tagHUD_RightMouse_R1=This is your secondary attack.  Right click to assign a different skill.
-tagHUD_CooldownLong=^W 59m
-tagHUD_CooldownMinutes=^W {%d0}:{%d1}
-tagHUD_CooldownSeconds=^Y {%d0}
-tagHUD_CooldownShort=^R {%d0}
+tagHUD_CooldownLong=^W59m
+tagHUD_CooldownSecondsW=^W{%d0}
+tagHUD_CooldownSecondsY=^Y{%d0}
+tagHUD_CooldownSecondsR=^R{%d0}
 tagHUD_CompassToggleName=Compass Map Toggle
 tagHUD_CompassToggleDescription=Click to change size or minimize the compass map.
 tagHUD_LootMode=Loot Filter
@@ -1247,6 +1247,21 @@ tagCharStatsPetAetherResistInfo=The percent bonus to the Aether Resistance of yo
 
 tagCharStatsPetChaosResist=Chaos Resist
 tagCharStatsPetChaosResistInfo=The percent bonus to the Chaos Resistance of your pets and summoned minions.
+
+tagCharStatsPetTrapResist=Trap Resist
+tagCharStatsPetTrapResistInfo=The percent bonus to the Trap Resistance of your pets and summoned minions.
+
+tagCharStatsPetPetrifyResist=Petrify Resist
+tagCharStatsPetPetrifyResistInfo=The percent bonus to the Petrify Resistance of your pets and summoned minions.
+
+tagCharStatsPetFreezeResist=Freeze Resist
+tagCharStatsPetFreezeResistInfo=The percent bonus to the Freeze Resistance of your pets and summoned minions.
+
+tagCharStatsPetSleepResist=Sleep Resist
+tagCharStatsPetSleepResistInfo=The percent bonus to the Sleep Resistance of your pets and summoned minions.
+
+tagCharStatsPetSlowResist=Slow Resist
+tagCharStatsPetSlowResistInfo=The percent bonus to the Slow Resistance of your pets and summoned minions.
 
 #Char Stats Tab 3
 
@@ -2510,7 +2525,7 @@ tagGroup02=Auto Group Enabled
 tagAutoItemSkill= (Granted by Item - Passive Activation)
 tagExclusiveSkill=^oExclusive Skill - Only one Exclusive Skill can be active at any one time.
 tagExclusiveSkillConflict=^rYou already have a more powerful exclusive skill active, {%s0}.
-tagAutoToggledSkill=^oToggled Buffs are automatically activated.
+tagAutoToggledSkill=^oBuffs are automatically activated.
 tagItemSkillModified= {^E}to {^Z}{%s0}
 
 tagAutoSort=Auto Sort

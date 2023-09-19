@@ -3612,6 +3612,7 @@ tagHideTooltip=[Hold Ctrl to Hide Tooltip]
 # Bonuses
 tagBonusLifePercentAbsPercent={^E}Restores {^H}{%.0f0}%+{%.0f1} {^E}Health {^H}+{%.0f2}% {^E}Over Time
 tagBonusLifePercentPercent={^E}Restores {^H}{%.0f0}% {^E}Health {^H}+{%.0f1}% {^E}Over Time
+tagBonusLifePercentSlow={^E}Restores {^H}{%.0f0}% {^E}Health Over Time
 tagBonusLifePercentAbs={^E}Restores {^H}{%.0f0}% + {%.0f1} {^E}Health
 tagBonusLifePercent={^E}Restores {^H}{%.0f0}% {^E}Health
 tagBonusLifeAbs={^E}Restores {^H}{%.0f0} {^E}Health
