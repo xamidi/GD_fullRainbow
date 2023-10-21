@@ -903,6 +903,7 @@ tagGloves=Gloves
 #QualityClass
 tagMagic=Magic 
 tagRare=Rare 
+tagDoubleRare=Double Rare 
 tagEpic=Epic 
 tagLegend=Legendary 
 
@@ -3618,7 +3619,7 @@ tagBonusLifePercent={^E}Restores {^H}{%.0f0}% {^E}Health
 tagBonusLifeAbs={^E}Restores {^H}{%.0f0} {^E}Health
 tagBonusManaPercentAbs={^E}Restores {^H}{%.0f0}% + {%.0f1} {^E}Energy
 tagBonusManaPercent={^E}Restores {^H}{%.0f0}% {^E}Energy
-tagBonusManaAbs={^E}Restores {^H}{%.0f0}% {^E}Energy
+tagBonusManaAbs={^E}Restores {^H}{%.0f0} {^E}Energy
 tagBonusExperience={%+d0} Experience
 tagBonusMoney={%+d0} Iron
 tagBonusSkillPoint={%+d0} Skill Points
