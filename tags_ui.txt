@@ -1,4 +1,4 @@
-tagHUD_LootModeDescription=Adjust the options for what loot should be shown. Toggling Show/Hide Items can be used to hide all drops during a busy encounter and then display them again once finished.{^n}{^n}Rainbow Files Created with{^n}Rainbow Tool: v0.5.5{^n}for Grim Dawn: v1.1.9.0{^n}{^o}An outdated version may cause issues in form of "Tag not found:...".
+tagHUD_LootModeDescription=Adjust the options for what loot should be shown. Toggling Show/Hide Items can be used to hide all drops during a busy encounter and then display them again once finished.{^n}{^n}Rainbow Files Created with{^n}Rainbow Tool: v0.5.9{^n}for Grim Dawn: v1.2.0.4{^n}{^o}An outdated version may cause issues in form of "Tag not found:...".
 ﻿#General=
 
 tagGameDifficultySetting01=Normal Difficulty
@@ -875,8 +875,8 @@ tagStatsResistance07=Vitality
 tagStatsResistance07Desc=Resistance to vitality-draining incantations that deal Vitality or Vitality-Decay damage.
 tagStatsResistance08=Aether
 tagStatsResistance08Desc=Resistance to Aether-bound attacks and sorcery that deal Aether damage.
-tagStatsResistance09=Stun
-tagStatsResistance09Desc=Reduces the duration of stun attacks and spells, which leave you unable to react.
+tagStatsResistance09=Physical
+tagStatsResistance09Desc=Resistance to spells and attacks which cause physical harm and internal trauma.
 tagStatsResistance10=Chaos
 tagStatsResistance10Desc=Resistance to Chaos damage dealt by the unstable energies of the universe itself, often used by Chthonian beings.
 tagStatsResistance11=Knockdown
@@ -924,14 +924,14 @@ tagCharStatsOA=Offensive Ability
 tagCharStatsOALast=Last Attacked: 
 tagCharStatsOAHit=Chance to Hit:
 tagCharStatsOACrit=Chance to Crit:
-tagCharStatsOADescription=A higher Offensive Ability (OA) increases your chance of successfully landing attacks and spells, scoring critical hits, and the damage of critical hits. An Offensive Ability lower than your opponent's Defensive Ability will greatly increase your chance to miss (your chance to hit cannot go below 60%).  Offensive Ability is affected by skills, items, and Cunning.
+tagCharStatsOADescription=A higher Offensive Ability (OA) increases your chance of successfully landing attacks and spells, scoring critical hits, and the damage of critical hits. An Offensive Ability lower than your opponent's Defensive Ability will greatly increase your chance to miss (your chance to hit cannot go below 55%).  Offensive Ability is affected by skills, items, and Cunning.
 
 tagCharStatsDAAlert=Defensive Ability {^b}(?) 
 tagCharStatsDA=Defensive Ability
 tagCharStatsDALast=Last Attacked By: 
 tagCharStatsDAHit=Chance to be Hit:
 tagCharStatsDACrit=Chance to be Crit:
-tagCharStatsDADescription=A higher Defensive Ability (DA) allows you to avoid enemy hits more often (minimum chance to be hit is 60%), decreases the chance of suffering a critical hit and reduces the damage taken when you are critically hit. Defensive Ability is affected by skills, items, and Physique.
+tagCharStatsDADescription=A higher Defensive Ability (DA) allows you to avoid enemy hits more often (minimum chance to be hit is 55%), decreases the chance of suffering a critical hit and reduces the damage taken when you are critically hit. Defensive Ability is affected by skills, items, and Physique.
 
 tagOverCapResist={%s0} {^b}{%.0f1}% {^s}(+{%.0f2}% Over Maximum) 
 tagOverCapResistInt={%s0} {^b}{%d1}% {^s}(+{%d2}% Over Maximum)
@@ -1292,8 +1292,8 @@ tagCharStatsDodgeChanceInfo=The percent chance of evading a melee attack, negati
 tagCharStatsProjDeflectChance=Deflect Chance
 tagCharStatsProjDeflectChanceInfo=The percent chance of deflecting a ranged attack, negating the damage completely.
 
-tagCharStatsPhysicalResist=Physical Resist
-tagCharStatsPhysicalResistInfo=Resistance to spells and attacks which cause physical harm and internal trauma.
+tagCharStatsStunResist=Stun Resist
+tagCharStatsStunResistInfo=Reduces the duration of stun attacks and spells, which leave you unable to react.
 
 tagCharStatsDisruptionResist=Disruption Resist
 tagCharStatsDisruptionResistInfo=Resistance to spells and attacks which interrupt your ability to cast skills.
@@ -1699,6 +1699,7 @@ SimpleStringsFormat={%s0}{%s1}
 TripleStringFormat={%s0}{%s1}{%s2}
 TripleStringFormat2={%s0} {%s1}{%s2}
 QuadStringFormat={%s0}{%s1}{%s2}{%s3}
+PentaStringFormat={%s0}{%s1}{%s2}{%s3}{%s4}
 SkillBaseNamesFormat={    %s0}
 CostFormat=Cost: {%d0}
 ManaDisplayFormat=Energy  {%d0} / {%d1} ({%d2} Reserved)
@@ -1969,6 +1970,7 @@ SkillChargeFactorMod=increase per Charge Level
 SkillChargeMaxMod=Charge Levels: 
 SkillChargeDurationMod=increase in Charge Duration
 SkillChanceWeight={%d0}% {^E}Chance to be Used
+SkillChanceWeightMod=+{%d0}% {^E}Chance to be Used
 SkillActivationChance={^E}Chance of Activating
 SkillDamageAbsorption={%.0f0} {^E}Damage Absorption
 SkillDamageAbsorptionPercent={%.0f0}% {^E}Damage Absorption
@@ -2039,9 +2041,9 @@ ProjectileFragmentsLaunchNumberMinMax={%d0 - %d1} {^E}Fragments
 ProjectileFragmentsLaunchNumber={%d0} {^E}Fragments
 ProjectilePiercingChance={%.1f0}% {^E}Chance to pass through Enemies
 ProjectilePiercingChanceMod=+{%.1f0}% {^E}Chance to pass through Enemies
-CooldownCharges={%d0} {^E}Max Casts
-CooldownChargesMod=+{%d0} {^E}Max Casts
-PotionCooldownCharges={%d0} {^E}Max Uses
+CooldownCharges={%d0} {^E}Charges
+CooldownChargesMod=+{%d0} {^E}Charges
+PotionCooldownCharges={%d0} {^E}Uses
 PotionCooldownChargesMod=+{%d0} {^E}Max Uses
 
 tagTooltipPetsHeader=Pets
